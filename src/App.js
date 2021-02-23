@@ -8,14 +8,21 @@ import sidebarItemList from './sidebarItemList';
 //Third party
 import { Route } from "react-router-dom";
 
+
 function App() {
+
   return (
     <div className="App">
       <Route path="/" component={Navbar} />
         <div class="container-fluid">
           <div class="row">
           <Route path="/" component={SidebarMenu} />
-          
+          <Route 
+            exact
+            path="/"
+            render= {() => {return <Main item = {sidebarItemList[0]} />}
+            }  
+            />   
           <Route 
             path="/data/:id"
             render= {renderProps => {
@@ -24,8 +31,7 @@ function App() {
               );
               return <Main item = {item} />
             }
-            }
-            
+            }  
             />
           
           </div>
