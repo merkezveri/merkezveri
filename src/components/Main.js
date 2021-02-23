@@ -5,12 +5,26 @@ function Iframe(props) {
     return (<div dangerouslySetInnerHTML={ {__html: iframe?iframe:""}} />);
   }
 
+
 function Main(props) {
+    
+    // Make Twitter Share Link
+    const twitterLink = "https://twitter.com/intent/tweet?url=" + window.location.href + "&text=" + encodeURI(props.item.name) + "&via=merkezveri"
+
     return (
         <React.Fragment>
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-                <h1 class="h2 mt-4">{props.item.name}</h1>
-                <p class="fw-light fst-italic">- {props.item.category}</p>
+                <div class="d-flex justify-content-between mt-4">
+                    <div>
+                        <h1 class="h2mt-4">{props.item.name}</h1>
+                        <p class="fw-light fst-italic">- {props.item.category}</p>
+                    </div>
+                    <div>
+                        <a class="btn btn-sm btn-primary" href={twitterLink} target="_blank" rel="noreferrer" role="button">
+                        <i class="fab fa-twitter navbar-icon"></i> Twitter ile paylaş!
+                        </a>
+                    </div>
+                </div>
                 <Iframe flourish_id={props.item.flourish_id} />
             </main>
         </React.Fragment>
