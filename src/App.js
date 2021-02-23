@@ -19,13 +19,11 @@ function App() {
           <Route 
             path="/data/:id"
             render= {renderProps => {
-              const item = sidebarItemList.map(
-                (item) => item.items.find(
+              const item = sidebarItemList.find(
                   item => item.id === renderProps.match.params.id
-              ));
-
-              return <Main link = {item[0].link} />
-                          }
+              );
+              return <Main item = {item} />
+            }
             }
             
             />
