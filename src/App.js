@@ -3,17 +3,35 @@ import './mycss.css';
 import Navbar from "./components/Navbar";
 import SidebarMenu from "./components/SidebarMenu";
 import Main from "./components/Main";
+import sidebarItemList from './sidebarItemList';
+
+//Third party
+import { Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <div class="container-fluid">
-        <div class="row">
-          <SidebarMenu />
-          <Main />
+      <Route path="/" component={Navbar} />
+        <div class="container-fluid">
+          <div class="row">
+          <Route path="/" component={SidebarMenu} />
+          
+          <Route 
+            path="/data/:id"
+            render= {renderProps => {
+              const item = sidebarItemList.map(
+                (item) => item.items.find(
+                  item => item.id === renderProps.match.params.id
+              ));
+
+              return <Main link = {item[0].link} />
+                          }
+            }
+            
+            />
+          
+          </div>
         </div>
-      </div>
     </div>
   );
 }

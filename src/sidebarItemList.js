@@ -5,15 +5,18 @@ const sidebarItemList = [
         "items" : [
             {
             "name" : "Gayri Safi Yurtiçi Hasıla",
-            "link" : "/"
+            "link" : "1",
+            "id" : "1"
         },
         {
             "name" : "Sanayi Üretim Endeksii",
-            "link" : "/"
+            "link" : "2",
+            "id" : "2",
         },
         {
             "name" : "İmalat Sanayi Kapasite Kullanım Oranları",
-            "link" : "/"
+            "link" : "3",
+            "id" : "3"
         }
         ],
     },
@@ -23,15 +26,18 @@ const sidebarItemList = [
         "items" : [
             {
             "name" : "İnşaat İstatistikleri",
-            "link" : "/"
+            "link" : "4",
+            "id" : "4",
         },
         {
             "name" : "Konut Fiyat Endeksi",
-            "link" : "/"
+            "link" : "5",
+            "id" : "5",
         },
         {
             "name" : "Kurulan ve Kapanan Şirket",
-            "link" : "/"
+            "link" : "6",
+            "id" : "6",
         }
         ],
     }

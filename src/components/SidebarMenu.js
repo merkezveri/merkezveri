@@ -1,6 +1,7 @@
 import React from 'react';
-import SidebarItem from "./SidebarItem";
 
+// My components
+import SidebarItem from "./SidebarItem";
 import sidebarItemList from '../sidebarItemList';
 
 function SidebarMenu() {
