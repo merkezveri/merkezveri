@@ -6,13 +6,14 @@ import Main from "./components/Main";
 import sidebarItemList from './sidebarItemList';
 
 //Third party
-import { Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 
 
 function App() {
 
   return (
     <div className="App">
+    <HashRouter>
       <Route path="/" component={Navbar} />
         <div class="container-fluid">
           <div class="row">
@@ -36,6 +37,7 @@ function App() {
           
           </div>
         </div>
+    </HashRouter>
     </div>
   );
 }
