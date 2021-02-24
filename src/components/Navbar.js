@@ -15,7 +15,7 @@ function Navbar() {
                 
                 <ul class="navbar-nav px-3 d-none d-md-block">
                     <li class="nav-item text-nowrap">
-                        <a class="nav-link" href="https://twitter.com/merkezveri"><i class="fab fa-twitter navbar-icon"></i> @merkezveri</a>
+                        <a class="nav-link" href="https://twitter.com/merkezveri" target="_blank" rel="noreferrer"><i class="fab fa-twitter navbar-icon"></i> @merkezveri</a>
                     </li>
                 </ul>
             </header>            
