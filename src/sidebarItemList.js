@@ -8,7 +8,7 @@ const sidebarItemList = [
     {
         "name": "Gayri Safi Yurtiçi Hasıla (Yıllık)",
         "category": "Üretim İstatistikleri",
-        "id": 10002,
+        "id": 10003,
         "flourish_id": 5394932
     },
     {
