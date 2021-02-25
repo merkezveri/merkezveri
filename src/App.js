@@ -28,7 +28,7 @@ function App() {
             path="/data/:id"
             render= {renderProps => {
               const item = sidebarItemList.find(
-                  item => item.id === renderProps.match.params.id
+                  item => item.id.toString() === renderProps.match.params.id
               );
               return <Main item = {item} />
             }
