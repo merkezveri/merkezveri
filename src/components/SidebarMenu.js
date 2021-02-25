@@ -1,23 +1,28 @@
 import React from 'react';
 
 // My components
-import SidebarItem from "./SidebarItem";
+import SidebarCategory from "./SidebarCategory";
 import sidebarItemList from '../sidebarItemList';
 
-//sidebarItemList.map((item) => console.log(item))
 
 function SidebarMenu() {
+    
+    //Aşağıdaki durumu sor!
+    // eslint-disable-next-line
+    const uniqueCategories = [... new Set(sidebarItemList.map(item => item.category))]
+
     return (
-            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse ">
-                <div class="position-sticky pt-3">
-                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-2 text-muted">
-                        <span>İstatistikler</span>
-                    </h6>
-                    <ul class="nav flex-column bg-light mb-2">
+            <nav id="sidebarMenu" className="col-md-3 col-lg-2 d-md-block sidebar collapse ">
+                <div className="position-sticky pt-3">
                     {
-                        sidebarItemList.map((item) => <SidebarItem item = {item} />)
+                        uniqueCategories.map(category => {
+                            let filterCategories = sidebarItemList.filter((item) => item["category"] === category);
+                            return (
+                                <SidebarCategory category = {category} filteredItems = {filterCategories}/>
+                            )
+                            }
+                            )
                     }
-                    </ul>
                 </div>
             </nav>
     )

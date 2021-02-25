@@ -67,6 +67,10 @@ body {
   text-transform: uppercase;
 }
 
+.sidebar-a {
+  text-decoration: none;
+}
+
 /*
  * Navbar
  */

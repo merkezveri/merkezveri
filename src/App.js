@@ -15,8 +15,8 @@ function App() {
     <div className="App">
     <HashRouter>
       <Route path="/" component={Navbar} />
-        <div class="container-fluid">
-          <div class="row">
+        <div className="container-fluid">
+          <div className="row">
           <Route path="/" component={SidebarMenu} />
           <Route 
             exact
