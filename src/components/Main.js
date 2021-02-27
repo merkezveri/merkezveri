@@ -8,7 +8,7 @@ function Iframe(props) {
 
 
 function Main(props) {
-    console.log("Bu",props.category)
+
     // Make Twitter Share Link
     const twitterLink = "https://twitter.com/intent/tweet?url=" + window.location.href + "&text=" + encodeURI(props.item.name) + "&via=merkezveri"
 
@@ -20,13 +20,14 @@ function Main(props) {
                         <h1 className="h2mt-4">{props.item.name}</h1>
                         <p className="fw-light fst-italic">- {props.item.category}</p>
                     </div>
+                    
                     <div>
+                        <FlourishGetImage flourish_id={props.item.flourish_id} name={props.item.name} />
                         <a className="btn btn-sm btn-primary" href={twitterLink} target="_blank" rel="noreferrer" role="button">
-                        <i className="fab fa-twitter navbar-icon"></i> Twitter ile paylaş!
+                            <i className="fab fa-twitter navbar-icon"></i> Twitter ile paylaş!
                         </a>
                     </div>
                 </div>
-                    <FlourishGetImage />
                     <Iframe flourish_id={props.item.flourish_id} />
             </main>
         </React.Fragment>
