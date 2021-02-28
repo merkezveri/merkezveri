@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import {Helmet} from "react-helmet";
 
 function FlourishGetImage(props) {
     const [ImageLink, setImageLink] = useState("link");

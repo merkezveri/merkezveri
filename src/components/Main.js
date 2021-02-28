@@ -2,11 +2,17 @@ import React from 'react';
 import FlourishGetImage from "./FlourishGetImage";
 import TwitterShare from "./TwitterShare";
 import FlourishIframe from "./FlourishIframe";
+import {Helmet} from "react-helmet";
 
 function Main(props) {
+    const metaDescription = "Merkez Veri, verileri görselleştirerek kaliteli bir deneyim oluşturmayı amaçlar. Veri kategorisi: " + props.item.category + " Veri adı: " + props.item.name
 
     return (
         <React.Fragment>
+            <Helmet>
+                <title>Merkez Veri | {props.item.name}</title>
+                <meta name="description" content={metaDescription} />
+            </Helmet>            
             <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <div className="d-flex justify-content-between mt-4">
                     <div>
@@ -24,7 +30,7 @@ function Main(props) {
                     <TwitterShare name = {props.item.name}/>
                 </div>
                 <FlourishIframe flourish_id={props.item.flourish_id} />
-            </main>
+            </main>            
         </React.Fragment>
     )
 }
