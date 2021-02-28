@@ -53,6 +53,7 @@ function FlourishGetImage(props) {
         </button>
         <Helmet>
             <title>Merkez Veri | {props.name}</title>
+                <meta name="robots" content="noindex" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:site" content="@merkezveri" />
                 <meta name="twitter:title" content={props.name} />
