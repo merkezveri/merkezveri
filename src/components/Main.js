@@ -13,7 +13,7 @@ function Main(props) {
                 <title>Merkez Veri | {props.item.name}</title>
                 <meta name="description" content={metaDescription} />
             </Helmet>            
-            <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <main id="main" className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
                 <div className="d-flex justify-content-between mt-4">
                     <div>
                         <h1 className="h2">{props.item.name}</h1>
