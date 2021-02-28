@@ -58,7 +58,7 @@ function FlourishGetImage(props) {
                 <meta name="twitter:title" content={props.name} />
                 <meta name="twitter:description" content="Verilerin görselleştirilmesi Merkez Veri tarafından yapılmıştır." />
                 <meta name="twitter:creator" content="@merkezveri" />
-                <meta name="twitter:image:src" content={ImageLink} />
+                <meta name="twitter:image" content={ImageLink} />
             </Helmet>
         </React.Fragment>
     )
