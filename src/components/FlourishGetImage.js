@@ -19,7 +19,6 @@ function FlourishGetImage(props) {
                     // çektiğimiz text üzerinde meta etiketinde arama yapıyoruz.
                     //let ImageLink = soup.findAll('meta')[10].nextElement.attrs.content
                     setImageLink(soup.findAll('meta')[10].nextElement.attrs.content)
-                    document.getElementsByTagName("META")[2].content="Your description about the page or site here to set dynamically";                    
                 }     
             );
     });
