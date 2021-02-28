@@ -54,7 +54,7 @@ function FlourishGetImage(props) {
         <Helmet>
             <title>Merkez Veri | {props.name}</title>
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:site" content="Merkez Veri" />
+                <meta name="twitter:site" content="@merkezveri" />
                 <meta name="twitter:title" content={props.name} />
                 <meta name="twitter:description" content="Verilerin görselleştirilmesi Merkez Veri tarafından yapılmıştır." />
                 <meta name="twitter:creator" content="@merkezveri" />
