@@ -7,11 +7,9 @@ function SidebarCategory(props) {
     return (
         <div>
             <a className="sidebar-a" data-bs-toggle="collapse" href={"#"+category_id} role="button" aria-expanded="false" aria-controls="collapseExample">
-            <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">	
+            <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-3 text-muted">	
                 <span>{props.category}</span>	
-                
-                    <i className="fas fa-caret-down" ></i>
-            
+                <i className="fas fa-caret-down" ></i>
         </h6>
         </a>	
         <div className="collapse" id={category_id}>	
