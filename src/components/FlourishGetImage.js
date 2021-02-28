@@ -47,20 +47,9 @@ function FlourishGetImage(props) {
                 };
 
       return (
-        <React.Fragment>
         <button className="btn btn-sm btn-secondary me-1 mb-1" onClick={(e) => handleClick(ImageLink,props.name, e)}>
             <i className="fas fa-download navbar-icon"></i> Resim indir!
         </button>
-        <Helmet>
-            <title>Merkez Veri | {props.name}</title>
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:site" content="@merkezveri" />
-                <meta name="twitter:title" content={props.name} />
-                <meta name="twitter:description" content="Verilerin görselleştirilmesi Merkez Veri tarafından yapılmıştır." />
-                <meta name="twitter:creator" content="@merkezveri" />
-                <meta name="twitter:image" content={ImageLink} />
-            </Helmet>
-        </React.Fragment>
     )
 }
 
