@@ -13,11 +13,12 @@ function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 
-                <ul className="navbar-nav px-3 d-none d-md-block">
-                    <li className="nav-item text-nowrap">
-                        <a className="nav-link" href="https://twitter.com/merkezveri" target="_blank" rel="noreferrer"><i className="fab fa-twitter navbar-icon"></i> @merkezveri</a>
-                    </li>
-                </ul>
+                <span className="mx-3 d-none d-md-block">
+                    <a className="nav-link p-0 me-2" href="https://twitter.com/merkezveri" target="_blank" rel="noreferrer"><i className="fab fa-twitter fa-lg navbar-icon"></i></a>
+                    <a className="nav-link p-0 me-2" href="https://instagram.com/merkezveri" target="_blank" rel="noreferrer"><i className="fab fa-instagram fa-lg navbar-icon"></i></a>
+                    <a className="nav-link p-0 me-2" href="https://www.linkedin.com/company/merkezveri/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in fa-lg navbar-icon"></i></a>
+                    <a className="nav-link p-0 me-2" href="mailto:merkezveri34@gmail.com" target="_blank" rel="noreferrer"><i className="far fa-envelope fa-lg navbar-icon"></i></a>
+                </span>
             </header>            
         </div>
     )
