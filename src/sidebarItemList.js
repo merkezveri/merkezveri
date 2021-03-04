@@ -47,6 +47,20 @@ const sidebarItemList = [
     "sidebarCategoryIcon": "fas fa-industry",
     "id": 10010,
     "flourish_id": 5412117
+  },
+  {
+    "name": "Konut Satışları",
+    "category": "Yatırım İstatistikleri",
+    "sidebarCategoryIcon": "fas fa-hand-holding-usd",
+    "id": 11002,
+    "flourish_id": 5463897
+  },
+  {
+    "name": "Yeni Konutlar Fiyat Endeksi",
+    "category": "Yatırım İstatistikleri",
+    "sidebarCategoryIcon": "fas fa-hand-holding-usd",
+    "id": 11004,
+    "flourish_id": 5463742
   }
 ]
 
