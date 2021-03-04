@@ -8,10 +8,10 @@ function SidebarItem(props) {
             {
                 <li className="nav-item" key={uniqid()} >
                     <Link className="nav-link" to={`/data/${props.item.id}`}>
-                        <i className="far fa-file-alt me-1"></i>
+                        <i className="far fa-circle me-1"></i>
                         {props.item.name}
                     </Link>
-                </li>   
+                </li>
             }
     </React.Fragment>
     )

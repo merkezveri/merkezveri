@@ -5,8 +5,9 @@ const twitterShare = require('twitter-share');
 function TwitterShare(props) {
 
     // create all the links!!!
+    const text = "Güncel \"" + props.name + "\" verilerine buradan ulaşabilirsiniz.\u000a\u000a"
     const params = {
-        text: props.name,
+        text: text,
         url: window.location.href,
         hashtags: ['tüik', 'istatistik', 'veri'],
         via: 'merkezveri', // optional String
