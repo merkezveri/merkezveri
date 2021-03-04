@@ -4,7 +4,6 @@ var uniqid = require('uniqid');
 
 function SidebarCategory(props) {
     const category_id = uniqid();
-    console.log(props)
     return (
         <div>
             <a className="sidebar-a" data-bs-toggle="collapse" href={"#"+category_id} role="button" aria-expanded="false" aria-controls="collapseExample">
