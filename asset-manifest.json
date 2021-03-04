@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.b88d8db8.chunk.css",
-    "main.js": "/static/js/main.3959e049.chunk.js",
-    "main.js.map": "/static/js/main.3959e049.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3def343c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3def343c.js.map",
-    "static/js/2.95a48b85.chunk.js": "/static/js/2.95a48b85.chunk.js",
-    "static/js/2.95a48b85.chunk.js.map": "/static/js/2.95a48b85.chunk.js.map",
-    "static/js/3.e6f4e40d.chunk.js": "/static/js/3.e6f4e40d.chunk.js",
-    "static/js/3.e6f4e40d.chunk.js.map": "/static/js/3.e6f4e40d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.b88d8db8.chunk.css.map": "/static/css/main.b88d8db8.chunk.css.map",
-    "static/js/2.95a48b85.chunk.js.LICENSE.txt": "/static/js/2.95a48b85.chunk.js.LICENSE.txt",
-    "static/media/logo_without_slogan.62426980.svg": "/static/media/logo_without_slogan.62426980.svg"
+    "main.css": "/merkezveri.com/static/css/main.b88d8db8.chunk.css",
+    "main.js": "/merkezveri.com/static/js/main.3959e049.chunk.js",
+    "main.js.map": "/merkezveri.com/static/js/main.3959e049.chunk.js.map",
+    "runtime-main.js": "/merkezveri.com/static/js/runtime-main.d6050b55.js",
+    "runtime-main.js.map": "/merkezveri.com/static/js/runtime-main.d6050b55.js.map",
+    "static/js/2.95a48b85.chunk.js": "/merkezveri.com/static/js/2.95a48b85.chunk.js",
+    "static/js/2.95a48b85.chunk.js.map": "/merkezveri.com/static/js/2.95a48b85.chunk.js.map",
+    "static/js/3.e6f4e40d.chunk.js": "/merkezveri.com/static/js/3.e6f4e40d.chunk.js",
+    "static/js/3.e6f4e40d.chunk.js.map": "/merkezveri.com/static/js/3.e6f4e40d.chunk.js.map",
+    "index.html": "/merkezveri.com/index.html",
+    "static/css/main.b88d8db8.chunk.css.map": "/merkezveri.com/static/css/main.b88d8db8.chunk.css.map",
+    "static/js/2.95a48b85.chunk.js.LICENSE.txt": "/merkezveri.com/static/js/2.95a48b85.chunk.js.LICENSE.txt",
+    "static/media/logo_without_slogan.62426980.svg": "/merkezveri.com/static/media/logo_without_slogan.62426980.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3def343c.js",
+    "static/js/runtime-main.d6050b55.js",
     "static/js/2.95a48b85.chunk.js",
     "static/css/main.b88d8db8.chunk.css",
     "static/js/main.3959e049.chunk.js"
