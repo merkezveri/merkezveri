@@ -45,9 +45,12 @@ function FlourishGetImage(props) {
                 };
 
       return (
-        <button className="btn btn-sm btn-secondary me-1 mb-1" onClick={(e) => handleClick(ImageLink,props.name, e)}>
-            <i className="fas fa-download navbar-icon"></i> Resim indir!
-        </button>
+        <button className="btn btn-sm btn-dark me-1 mb-1"
+                onClick={(e) => handleClick(ImageLink,props.name, e)}
+                type="button"
+                data-bs-toggle="tooltip" data-bs-placement="bottom" title="Resim olarak indir!"
+                >
+            <i className="fas fa-download navbar-icon"></i> İndir</button>
     )
 }
 
