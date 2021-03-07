@@ -37,6 +37,7 @@ function SearchBar(props) {
                 aria-label="Arama"
                 value={input}
                 onChange={handleChangeSearch}
+                style={{"height":"48px"}}
             />
             
             {
