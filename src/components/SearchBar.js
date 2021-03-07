@@ -1,9 +1,7 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 
-// Geçici olarak eklediğimiz data
-import sidebarItemList from '../sidebarItemList';
-
-function SearchBar() {
+function SearchBar(props) {
     
     // Arama içerisindeki saklayacağımız değişken ve onu tanımlayacağımız fonksiyon.
     const [input, setInput] = useState("");
@@ -17,38 +15,50 @@ function SearchBar() {
         setInput(e.target.value)
     }
 
+    //Link'e tıklandığında listenin kapanması için boş kümeye eşitleyelim.
+    const handleClickLink = (e) => {
+        setInput("")
+    }
+
     let SearchItemList = ""; //Arama Listesi
     // Arama eşleşirse döndür.
     if (input.length > 0 ){
-        SearchItemList = sidebarItemList.filter((i) => {
-            return i.name.match(input);
+        SearchItemList = props.itemList.filter((i) => {
+            return i.name.toLowerCase().match(input);
         }); //filter close
     } //if close
 
     return (
         <React.Fragment>
+            <div className="w-100">
             <input
-                className="form-control form-control-dark w-100"
+                className="form-control form-control-dark"
                 type="text"
                 placeholder="Arama"
                 aria-label="Arama"
+                value={input}
                 onChange={handleChangeSearch}
             />
             
             {
                 input.length > 0 ? (
-                <ul>
+                <ul className="list-group livesearch">
                     {
                         SearchItemList.map((item) => {
                             return (
-                                <li class="list-group-item">{item.name}</li>
+                                <Link
+                                className="list-group-item list-group-item-action"
+                                to={`/data/${item.id}`}
+                                onClick={handleClickLink}>
+                                    {item.name}
+                                </Link>
                             )
                         })
                     }
                 </ul>
                 ) : ""
             }
-            
+            </div>
         </React.Fragment>
     )
 }

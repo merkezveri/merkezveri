@@ -14,15 +14,22 @@ function App() {
   return (
     <div className="App">
     <HashRouter>
-      <Route path="/" component={Navbar} />
+      <Route
+        path="/" 
+        render= {() => {return <Navbar itemList = {sidebarItemList} />}}
+      />
         <div className="container-fluid">
           <div className="row">
-          <Route path="/" component={SidebarMenu} />
+          
+          <Route
+            path="/"
+            render= {() => {return <SidebarMenu itemList = {sidebarItemList} />}}
+          />
+          
           <Route 
             exact
             path="/"
-            render= {() => {return <Main item = {sidebarItemList[0]} />}
-            }  
+            render= {() => {return <Main item = {sidebarItemList[0]} />}}  
             />   
           <Route 
             path="/data/:id"
