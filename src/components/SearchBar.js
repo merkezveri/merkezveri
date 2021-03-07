@@ -12,7 +12,7 @@ function SearchBar(props) {
         e.preventDefault()
         
         // input değişkenimizi hooks kullanarak arama çubuğuna yazılan değere eşitliyoruz.
-        setInput(e.target.value)
+        setInput(e.target.value.toLowerCase())
     }
 
     //Link'e tıklandığında listenin kapanması için boş kümeye eşitleyelim.
