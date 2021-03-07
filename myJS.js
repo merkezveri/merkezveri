@@ -9,7 +9,6 @@ document.addEventListener("click",event => {
     if (document.querySelector("#sidebarMenu").classList.contains("show")) {
         //console.log(event.target.tagName)
         // Kategori seçebilmek için bunlar hariç
-        console.log(event.target.tagName)
         if (event.target.tagName === "H6" || event.target.tagName === "SPAN"|| event.target.tagName === "I" || event.target.tagName==="INPUT") {
             
                   }else{
