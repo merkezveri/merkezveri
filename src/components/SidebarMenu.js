@@ -2,6 +2,7 @@ import React from 'react';
 
 // My components
 import SidebarCategory from "./SidebarCategory";
+import SearchBar from "./SearchBar";
 
 function SidebarMenu(props) {
     //Aşağıdaki durumu sor!
@@ -11,6 +12,10 @@ function SidebarMenu(props) {
     return (
             <nav id="sidebarMenu" className="col-md-3 col-lg-2 d-md-block sidebar collapse ">
                 <div className="position-sticky pt-3">
+                    <div className="d-md-none">
+                        <SearchBar itemList={props.itemList}/>
+                    </div>
+                    
                     {
                         uniqueCategories.map(category => {
                             let filterCategories = props.itemList.filter((item) => item["category"] === category);

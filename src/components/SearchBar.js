@@ -30,11 +30,10 @@ function SearchBar(props) {
 
     return (
         <React.Fragment>
-            <div className="w-100">
             <input
                 className="form-control form-control-dark"
                 type="text"
-                placeholder="Arama"
+                placeholder="Arama.."
                 aria-label="Arama"
                 value={input}
                 onChange={handleChangeSearch}
@@ -58,7 +57,6 @@ function SearchBar(props) {
                 </ul>
                 ) : ""
             }
-            </div>
         </React.Fragment>
     )
 }
