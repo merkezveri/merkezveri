@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../figures/logo_without_slogan.svg';
+import SearchBar from "./SearchBar";
 
 function Navbar() {
     return (
@@ -13,7 +14,7 @@ function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <input class="form-control form-control-dark w-100" type="text" placeholder="Arama" aria-label="Arama"></input>
+                <SearchBar />
                 
                 <span className="mx-1 text-center d-none d-md-block" style={{"width":"160px"}}>
                     <a className="nav-link p-0 me-2" href="https://instagram.com/merkezveri" target="_blank" rel="noreferrer"><i className="fab fa-instagram fa-lg navbar-icon"></i></a>
@@ -21,7 +22,7 @@ function Navbar() {
                     <a className="nav-link p-0 me-2" href="https://twitter.com/merkezveri" target="_blank" rel="noreferrer"><i className="fab fa-twitter fa-lg navbar-icon"></i></a>
                     <a className="nav-link p-0" href="mailto:merkezveri34@gmail.com" target="_blank" rel="noreferrer"><i className="fas fa-envelope fa-lg navbar-icon"></i></a>
                 </span>
-            </header>            
+            </header>
         </div>
     )
 }
