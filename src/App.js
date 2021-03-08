@@ -12,6 +12,8 @@ import { HashRouter, Route } from "react-router-dom";
 
 
 function App() {
+
+//Data değişkeni ve onu düzenleme fonksiyonu
 const [Data, setData] = useState([{
   "name": "Gayri Safi Yurtiçi Hasıla (Çeyrek)",
   "category": "Üretim İstatistikleri",
@@ -20,16 +22,17 @@ const [Data, setData] = useState([{
   "flourish_id": 5395265
 }]);
 
+// Verileri github üzerinden raw olarak çekip json'a dönüştürüyoruz.
 const getData=()=>{
   fetch('https://raw.githubusercontent.com/merkezveri/merkezveri.github.io/master/src/data.json')
   .then(response => response.json())
   .then(data => setData(data));
-  console.log(1)
 }
 
+//App yüklendiğinde getData() ile verileri çekiyoruz.
 useEffect(() => {
   getData();
- },[]);
+ },[]); //2. parametre olarak [] vermezsek sürekli istek atıyor.
 
   return (
     <div className="App">
