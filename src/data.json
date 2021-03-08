@@ -1,10 +1,79 @@
 [
     {
-      "name": "Gayri Safi Yurtiçi Hasıla (Çeyrek)",
-      "description": "",
-      "category": "Üretim İstatistikleri",
-      "sidebarCategoryIcon": "fas fa-industry",
-      "id": 10001,
-      "flourish_id": 5395265
+        "name": "Gayri Safi Yurtiçi Hasıla (Çeyrek)",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10001,
+        "flourishid": 5395265
+    },
+    {
+        "name": "Gayri Safi Yurtiçi Hasıla (Yıllık)",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10002,
+        "flourishid": 5394932
+    },
+    {
+        "name": "Temel Ürünler İtibarıyla Tarımsal Üretim",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10006,
+        "flourishid": 5412050
+    },
+    {
+        "name": "Sanayi Üretim Endeksi",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10007,
+        "flourishid": 5395427
+    },
+    {
+        "name": "İmalat Sanayi Kapasite Kullanım Oranları",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10008,
+        "flourishid": 5395479
+    },
+    {
+        "name": "Otomobil",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10009,
+        "flourishid": 5401500
+    },
+    {
+        "name": "Beyaz Eşya",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10010,
+        "flourishid": 5412117
+    },
+    {
+        "name": "Konut Satışları",
+        "category": "Yatırım İstatistikleri",
+        "sidebarcategoryicon": "fas fa-hand-holding-usd",
+        "id": 11002,
+        "flourishid": 5463897
+    },
+    {
+        "name": "Yeni Konutlar Fiyat Endeksi",
+        "category": "Yatırım İstatistikleri",
+        "sidebarcategoryicon": "fas fa-hand-holding-usd",
+        "id": 11004,
+        "flourishid": 5463742
+    },
+    {
+        "name": "Kurulan Ve Kapanan Şirket",
+        "category": "Yatırım İstatistikleri",
+        "sidebarcategoryicon": "fas fa-hand-holding-usd",
+        "id": 11005,
+        "flourishid": 5467016
+    },
+    {
+        "name": "İşgücü İstatistikleri",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12000,
+        "flourishid": 5490023
     }
-  ]
+]
