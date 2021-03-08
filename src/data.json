@@ -74,6 +74,27 @@
         "category": "İstihdam İstatistikleri",
         "sidebarcategoryicon": "fas fa-people-carry",
         "id": 12000,
+        "flourishid": 5499885
+    },
+    {
+        "name": "İşsizlik Oranı",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12003,
         "flourishid": 5490023
+    },
+    {
+        "name": "İstihdamın Sektörel Dağılımı",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12008,
+        "flourishid": 5500170
+    },
+    {
+        "name": "Gini Katsayısı",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12010,
+        "flourishid": 5500317
     }
 ]
