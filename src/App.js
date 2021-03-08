@@ -16,12 +16,12 @@ function App() {
 //Data değişkeni ve onu düzenleme fonksiyonu
 const [Data, setData] = useState([{
   "name": "Gayri Safi Yurtiçi Hasıla (Çeyrek)",
+  "description":"",
   "category": "Üretim İstatistikleri",
-  "sidebarCategoryIcon": "fas fa-industry",
+  "sidebarcategoryicon": "fas fa-industry",
   "id": 10001,
-  "flourish_id": 5395265
+  "flourishid": 5395265
 }]);
-
 // Verileri github üzerinden raw olarak çekip json'a dönüştürüyoruz.
 const getData=()=>{
   fetch('https://raw.githubusercontent.com/merkezveri/merkezveri.github.io/master/src/data.json')

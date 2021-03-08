@@ -3,6 +3,7 @@ import React from 'react';
 // My components
 import SidebarCategory from "./SidebarCategory";
 import SearchBar from "./SearchBar";
+var uniqid = require('uniqid');
 
 function SidebarMenu(props) {
     //Aşağıdaki durumu sor!
@@ -20,7 +21,7 @@ function SidebarMenu(props) {
                         uniqueCategories.map(category => {
                             let filterCategories = props.itemList.filter((item) => item["category"] === category);
                             return (
-                                <SidebarCategory category = {category} filteredItems = {filterCategories}/>
+                                <SidebarCategory category = {category} filteredItems = {filterCategories} key={uniqid()}/>
                             )
                             }
                             )

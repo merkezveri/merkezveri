@@ -6,7 +6,7 @@ import {Helmet} from "react-helmet";
 
 function Main(props) {
     const metaDescription = "Merkez Veri, verileri görselleştirerek kaliteli bir deneyim oluşturmayı amaçlar. Veri kategorisi: " + props.item.category + " Veri adı: " + props.item.name
-
+    
     return (
         <React.Fragment>
             <Helmet>
@@ -21,15 +21,15 @@ function Main(props) {
                     </div>
                     
                     <div className="d-none d-lg-block">
-                        <FlourishGetImage flourish_id={props.item.flourish_id} name={props.item.name} />
+                        <FlourishGetImage flourish_id={props.item.flourishid} name={props.item.name} />
                         <TwitterShare name = {props.item.name}/>
                     </div>
                 </div>
                 <div className="d-flex justify-content-end d-lg-none">
-                    <FlourishGetImage flourish_id={props.item.flourish_id} name={props.item.name} />
+                    <FlourishGetImage flourish_id={props.item.flourishid} name={props.item.name} />
                     <TwitterShare name = {props.item.name}/>
                 </div>
-                <FlourishIframe flourish_id={props.item.flourish_id} />
+                <FlourishIframe flourish_id={props.item.flourishid} />
             </main>            
         </React.Fragment>
     )

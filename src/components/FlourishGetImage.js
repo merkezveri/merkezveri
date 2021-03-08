@@ -5,8 +5,6 @@ function FlourishGetImage(props) {
 
     // componentDidMount ve componentDidUpdate kullanımına benzer bir kullanım sunar:
     useEffect(() => {
-
-        
         //Link Çağır
         fetch('https://public.flourish.studio/visualisation/'+props.flourish_id).then(
             // Yukarıdaki adresi text olarak çekiyoruz.
@@ -18,9 +16,8 @@ function FlourishGetImage(props) {
                     var soup = new JSSoup(text);
                     // çektiğimiz text üzerinde meta etiketinde arama yapıyoruz.
                     //let ImageLink = soup.findAll('meta')[10].nextElement.attrs.content
-                    setImageLink(soup.findAll('meta')[10].nextElement.attrs.content)
-                }     
-            );
+                    setImageLink(soup.findAll('meta')[10].nextElement.attrs.content);
+                });
     });
 
     const handleClick = (ImageLink,name,e) => {
