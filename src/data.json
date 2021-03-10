@@ -98,10 +98,31 @@
         "flourishid": 5500317
     },
     {
-        "name": "Reel Kesim Güven Endeksi (TCMB)",
+        "name": "Ekonomik Güven Endeksi",
+        "category": "Endeksler",
+        "sidebarcategoryicon": "fas fa-chart-line",
+        "id": 13000,
+        "flourishid": 5520621
+    },
+    {
+        "name": "Reel Kesim Güven Endeksi",
         "category": "Endeksler",
         "sidebarcategoryicon": "fas fa-chart-line",
         "id": 13001,
         "flourishid": 5520212
+    },
+    {
+        "name": "Tüketici Güven Endeksi",
+        "category": "Endeksler",
+        "sidebarcategoryicon": "fas fa-chart-line",
+        "id": 13002,
+        "flourishid": 5520508
+    },
+    {
+        "name": "PMI (İSO Satın Alma Yöneticileri Endeksi)",
+        "category": "Endeksler",
+        "sidebarcategoryicon": "fas fa-chart-line",
+        "id": 13003,
+        "flourishid": 5520567
     }
 ]
