@@ -1,5 +1,11 @@
 [
     {
+        "name": "Gayri Safi Yurtiçi Hasıla (Aylık)",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10000
+    },
+    {
         "name": "Gayri Safi Yurtiçi Hasıla (Çeyrek)",
         "category": "Üretim İstatistikleri",
         "sidebarcategoryicon": "fas fa-industry",
@@ -12,6 +18,24 @@
         "sidebarcategoryicon": "fas fa-industry",
         "id": 10002,
         "flourishid": 5394932
+    },
+    {
+        "name": "Büyüme Oranı",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10003
+    },
+    {
+        "name": "Kişibaşına",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10004
+    },
+    {
+        "name": "İktisadi Faaliyet Kollarına Göre Gsyh Cari Fiyatlarla – Yıllık (Gsyh İçindeki Pay)",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10005
     },
     {
         "name": "Temel Ürünler İtibarıyla Tarımsal Üretim",
@@ -49,11 +73,53 @@
         "flourishid": 5412117
     },
     {
+        "name": "Buzdolabı",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10011
+    },
+    {
+        "name": "Çamaşır Makinesi",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10012
+    },
+    {
+        "name": "Bulaşık Makinesi",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10013
+    },
+    {
+        "name": "Fırın Üretimi",
+        "category": "Üretim İstatistikleri",
+        "sidebarcategoryicon": "fas fa-industry",
+        "id": 10014
+    },
+    {
+        "name": "İnşaat İstatistikleri",
+        "category": "Yatırım İstatistikleri",
+        "sidebarcategoryicon": "fas fa-hand-holding-usd",
+        "id": 11000
+    },
+    {
+        "name": "İnşaat Sektörü Üretim Endeksi",
+        "category": "Yatırım İstatistikleri",
+        "sidebarcategoryicon": "fas fa-hand-holding-usd",
+        "id": 11001
+    },
+    {
         "name": "Konut Satışları",
         "category": "Yatırım İstatistikleri",
         "sidebarcategoryicon": "fas fa-hand-holding-usd",
         "id": 11002,
         "flourishid": 5463897
+    },
+    {
+        "name": "Konut Fiyat Endeksi",
+        "category": "Yatırım İstatistikleri",
+        "sidebarcategoryicon": "fas fa-hand-holding-usd",
+        "id": 11003
     },
     {
         "name": "Yeni Konutlar Fiyat Endeksi",
@@ -70,11 +136,35 @@
         "flourishid": 5467016
     },
     {
+        "name": "Kurulan",
+        "category": "Yatırım İstatistikleri",
+        "sidebarcategoryicon": "fas fa-hand-holding-usd",
+        "id": 11006
+    },
+    {
+        "name": "Kapanan",
+        "category": "Yatırım İstatistikleri",
+        "sidebarcategoryicon": "fas fa-hand-holding-usd",
+        "id": 11007
+    },
+    {
         "name": "İşgücü İstatistikleri",
         "category": "İstihdam İstatistikleri",
         "sidebarcategoryicon": "fas fa-people-carry",
         "id": 12000,
         "flourishid": 5499885
+    },
+    {
+        "name": "İşgücüne Katılma Oranı",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12001
+    },
+    {
+        "name": "İstihdam Oranı",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12002
     },
     {
         "name": "İşsizlik Oranı",
@@ -84,6 +174,30 @@
         "flourishid": 5490023
     },
     {
+        "name": "Tarım Dışı İşsizlik Oranı",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12004
+    },
+    {
+        "name": "Genç Nüfusta İşsizlik Oranı",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12005
+    },
+    {
+        "name": "İşkur İstatistikleri",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12006
+    },
+    {
+        "name": "İş Arayanlar",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12007
+    },
+    {
         "name": "İstihdamın Sektörel Dağılımı",
         "category": "İstihdam İstatistikleri",
         "sidebarcategoryicon": "fas fa-people-carry",
@@ -91,10 +205,252 @@
         "flourishid": 5500170
     },
     {
+        "name": "İşe Yerleştirilenler",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12009
+    },
+    {
         "name": "Gini Katsayısı",
         "category": "İstihdam İstatistikleri",
         "sidebarcategoryicon": "fas fa-people-carry",
         "id": 12010,
         "flourishid": 5500317
+    },
+    {
+        "name": "Hanehalkı kullanılabilir gelire göre",
+        "category": "İstihdam İstatistikleri",
+        "sidebarcategoryicon": "fas fa-people-carry",
+        "id": 12011
+    },
+    {
+        "name": "Güven Endeksleri",
+        "category": "Endeksler",
+        "sidebarcategoryicon": "fas fa-chart-line",
+        "id": 13000
+    },
+    {
+        "name": "Reel Kesim Güven Endeksi (TCMB)",
+        "category": "Endeksler",
+        "sidebarcategoryicon": "fas fa-chart-line",
+        "id": 13001,
+        "flourishid": 5520212
+    },
+    {
+        "name": "Tüketici Güven Endeksi (TÜİK)",
+        "category": "Endeksler",
+        "sidebarcategoryicon": "fas fa-chart-line",
+        "id": 13002
+    },
+    {
+        "name": "PMI (İSO Satın Alma Yöneticileri Endeksi)",
+        "category": "Endeksler",
+        "sidebarcategoryicon": "fas fa-chart-line",
+        "id": 13003
+    },
+    {
+        "name": "İhracat",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14000
+    },
+    {
+        "name": "İhracat(milyon dolar)",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14001
+    },
+    {
+        "name": "İhracat(önceki yılın aynı ayı",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14002
+    },
+    {
+        "name": "İhracat(önceki ay)",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14003
+    },
+    {
+        "name": "Ülke Gruplarına Göre İthalat",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14004
+    },
+    {
+        "name": "İTHALAT",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14005
+    },
+    {
+        "name": "İthalat(milyon dolar)",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14006
+    },
+    {
+        "name": "İthalat(önceki yılın aynı ayı",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14007
+    },
+    {
+        "name": "İthalat(önceki ay)",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14008
+    },
+    {
+        "name": "Ülke Gruplarına Göre İhracat",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14009
+    },
+    {
+        "name": "Ham Petrol Fiyatları",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14010
+    },
+    {
+        "name": "Dünya Ortalama Mal Fiyatları",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "id": 14011
+    },
+    {
+        "name": "Turizm Gelirleri",
+        "category": "Turizm",
+        "id": 15000
+    },
+    {
+        "name": "Çıkış Yapan Ziyaretçi Sayısı",
+        "category": "Turizm",
+        "id": 15001
+    },
+    {
+        "name": "Turist Başına Ortalama Harcama",
+        "category": "Turizm",
+        "id": 15002
+    },
+    {
+        "name": "Tüketici Fiyat Endeksi",
+        "category": "Fiyatlar",
+        "id": 16000
+    },
+    {
+        "name": "Tüketici Fiyat Endeksi (Yıllık Yüzde Değişim)",
+        "category": "Fiyatlar",
+        "id": 16001
+    },
+    {
+        "name": "Tüketici Fiyat Endeksi (Aylık Yüzde Değişim)",
+        "category": "Fiyatlar",
+        "id": 16002
+    },
+    {
+        "name": "SEKTÖRLER İTİBARIYLA TÜKETİCİ FİYAT ENDEKSİ (Yıllık Yüzde Değişim)",
+        "category": "Fiyatlar",
+        "id": 16003
+    },
+    {
+        "name": "SEKTÖRLER İTİBARIYLA TÜKETİCİ FİYAT ENDEKSİ (Aylık Yüzde Değişim)",
+        "category": "Fiyatlar",
+        "id": 16004
+    },
+    {
+        "name": "YURT İÇİ ÜRETİCİ FİYAT ENDEKSİ(Aylık Yüzde Değişim)",
+        "category": "Fiyatlar",
+        "id": 16005
+    },
+    {
+        "name": "YURT İÇİ ÜRETİCİ FİYAT ENDEKSİ(Yıllık Yüzde Değişim)",
+        "category": "Fiyatlar",
+        "id": 16006
+    },
+    {
+        "name": "DÖVİZ KURU GELİŞMELERİ",
+        "category": "Fiyatlar",
+        "id": 16007
+    },
+    {
+        "name": "ABD Doları",
+        "category": "Fiyatlar",
+        "id": 16008
+    },
+    {
+        "name": "EURO",
+        "category": "Fiyatlar",
+        "id": 16009
+    },
+    {
+        "name": "Merkez Bankası Bilançosu Yabancı Para Pozisyonu",
+        "category": "Mali Piyasalar",
+        "id": 17000
+    },
+    {
+        "name": "Net Döviz Rezervleri",
+        "category": "Mali Piyasalar",
+        "id": 17001
+    },
+    {
+        "name": "Kredi Gelişmeleri",
+        "category": "Mali Piyasalar",
+        "id": 17002
+    },
+    {
+        "name": "(Milyon Tl)",
+        "category": "Mali Piyasalar",
+        "id": 17003
+    },
+    {
+        "name": "Bir Önceki Yılın Aynı Dönemine Göre Yüzde Değişim",
+        "category": "Mali Piyasalar",
+        "id": 17004
+    },
+    {
+        "name": "Tüketici Kredileri",
+        "category": "Mali Piyasalar",
+        "id": 17005
+    },
+    {
+        "name": "(Milyon Tl)",
+        "category": "Mali Piyasalar",
+        "id": 17006
+    },
+    {
+        "name": "Bir Önceki Yılın Aynı Dönemine Göre Yüzde Değişim",
+        "category": "Mali Piyasalar",
+        "id": 17007
+    },
+    {
+        "name": "Bankacılık Sektörü Takipteki Krediler",
+        "category": "Mali Piyasalar",
+        "id": 17008
+    },
+    {
+        "name": "(Milyon Tl)",
+        "category": "Mali Piyasalar",
+        "id": 17009
+    },
+    {
+        "name": "Bir Önceki Yılın Aynı Dönemine Göre Yüzde Değişim",
+        "category": "Mali Piyasalar",
+        "id": 17010
+    },
+    {
+        "name": "Bankacılık Sektörüne İlişkin Oranlar",
+        "category": "Mali Piyasalar",
+        "id": 17011
+    },
+    {
+        "name": "Takipteki Alacaklar / Toplam Krediler",
+        "category": "Mali Piyasalar",
+        "id": 17012
+    },
+    {
+        "name": "Kredi / Mevduat",
+        "category": "Mali Piyasalar",
+        "id": 17013
+    },
+    {
+        "name": "Faiz Geliri / Faiz Gideri",
+        "category": "Mali Piyasalar",
+        "id": 17014
+    },
+    {
+        "name": "Özkaynak Karlılığı",
+        "category": "Mali Piyasalar",
+        "id": 17015
     }
 ]
