@@ -1,11 +1,5 @@
 [
     {
-        "name": "Gayri Safi Yurtiçi Hasıla (Aylık)",
-        "category": "Üretim İstatistikleri",
-        "sidebarcategoryicon": "fas fa-industry",
-        "id": 10000
-    },
-    {
         "name": "Gayri Safi Yurtiçi Hasıla (Çeyrek)",
         "category": "Üretim İstatistikleri",
         "sidebarcategoryicon": "fas fa-industry",
@@ -18,24 +12,6 @@
         "sidebarcategoryicon": "fas fa-industry",
         "id": 10002,
         "flourishid": 5394932
-    },
-    {
-        "name": "Büyüme Oranı",
-        "category": "Üretim İstatistikleri",
-        "sidebarcategoryicon": "fas fa-industry",
-        "id": 10003
-    },
-    {
-        "name": "Kişibaşına",
-        "category": "Üretim İstatistikleri",
-        "sidebarcategoryicon": "fas fa-industry",
-        "id": 10004
-    },
-    {
-        "name": "İktisadi Faaliyet Kollarına Göre Gsyh Cari Fiyatlarla – Yıllık (Gsyh İçindeki Pay)",
-        "category": "Üretim İstatistikleri",
-        "sidebarcategoryicon": "fas fa-industry",
-        "id": 10005
     },
     {
         "name": "Temel Ürünler İtibarıyla Tarımsal Üretim",
@@ -73,53 +49,11 @@
         "flourishid": 5412117
     },
     {
-        "name": "Buzdolabı",
-        "category": "Üretim İstatistikleri",
-        "sidebarcategoryicon": "fas fa-industry",
-        "id": 10011
-    },
-    {
-        "name": "Çamaşır Makinesi",
-        "category": "Üretim İstatistikleri",
-        "sidebarcategoryicon": "fas fa-industry",
-        "id": 10012
-    },
-    {
-        "name": "Bulaşık Makinesi",
-        "category": "Üretim İstatistikleri",
-        "sidebarcategoryicon": "fas fa-industry",
-        "id": 10013
-    },
-    {
-        "name": "Fırın Üretimi",
-        "category": "Üretim İstatistikleri",
-        "sidebarcategoryicon": "fas fa-industry",
-        "id": 10014
-    },
-    {
-        "name": "İnşaat İstatistikleri",
-        "category": "Yatırım İstatistikleri",
-        "sidebarcategoryicon": "fas fa-hand-holding-usd",
-        "id": 11000
-    },
-    {
-        "name": "İnşaat Sektörü Üretim Endeksi",
-        "category": "Yatırım İstatistikleri",
-        "sidebarcategoryicon": "fas fa-hand-holding-usd",
-        "id": 11001
-    },
-    {
         "name": "Konut Satışları",
         "category": "Yatırım İstatistikleri",
         "sidebarcategoryicon": "fas fa-hand-holding-usd",
         "id": 11002,
         "flourishid": 5463897
-    },
-    {
-        "name": "Konut Fiyat Endeksi",
-        "category": "Yatırım İstatistikleri",
-        "sidebarcategoryicon": "fas fa-hand-holding-usd",
-        "id": 11003
     },
     {
         "name": "Yeni Konutlar Fiyat Endeksi",
@@ -136,35 +70,11 @@
         "flourishid": 5467016
     },
     {
-        "name": "Kurulan",
-        "category": "Yatırım İstatistikleri",
-        "sidebarcategoryicon": "fas fa-hand-holding-usd",
-        "id": 11006
-    },
-    {
-        "name": "Kapanan",
-        "category": "Yatırım İstatistikleri",
-        "sidebarcategoryicon": "fas fa-hand-holding-usd",
-        "id": 11007
-    },
-    {
         "name": "İşgücü İstatistikleri",
         "category": "İstihdam İstatistikleri",
         "sidebarcategoryicon": "fas fa-people-carry",
         "id": 12000,
         "flourishid": 5499885
-    },
-    {
-        "name": "İşgücüne Katılma Oranı",
-        "category": "İstihdam İstatistikleri",
-        "sidebarcategoryicon": "fas fa-people-carry",
-        "id": 12001
-    },
-    {
-        "name": "İstihdam Oranı",
-        "category": "İstihdam İstatistikleri",
-        "sidebarcategoryicon": "fas fa-people-carry",
-        "id": 12002
     },
     {
         "name": "İşsizlik Oranı",
@@ -174,41 +84,11 @@
         "flourishid": 5490023
     },
     {
-        "name": "Tarım Dışı İşsizlik Oranı",
-        "category": "İstihdam İstatistikleri",
-        "sidebarcategoryicon": "fas fa-people-carry",
-        "id": 12004
-    },
-    {
-        "name": "Genç Nüfusta İşsizlik Oranı",
-        "category": "İstihdam İstatistikleri",
-        "sidebarcategoryicon": "fas fa-people-carry",
-        "id": 12005
-    },
-    {
-        "name": "İşkur İstatistikleri",
-        "category": "İstihdam İstatistikleri",
-        "sidebarcategoryicon": "fas fa-people-carry",
-        "id": 12006
-    },
-    {
-        "name": "İş Arayanlar",
-        "category": "İstihdam İstatistikleri",
-        "sidebarcategoryicon": "fas fa-people-carry",
-        "id": 12007
-    },
-    {
         "name": "İstihdamın Sektörel Dağılımı",
         "category": "İstihdam İstatistikleri",
         "sidebarcategoryicon": "fas fa-people-carry",
         "id": 12008,
         "flourishid": 5500170
-    },
-    {
-        "name": "İşe Yerleştirilenler",
-        "category": "İstihdam İstatistikleri",
-        "sidebarcategoryicon": "fas fa-people-carry",
-        "id": 12009
     },
     {
         "name": "Gini Katsayısı",
@@ -218,34 +98,10 @@
         "flourishid": 5500317
     },
     {
-        "name": "Hanehalkı kullanılabilir gelire göre",
-        "category": "İstihdam İstatistikleri",
-        "sidebarcategoryicon": "fas fa-people-carry",
-        "id": 12011
-    },
-    {
-        "name": "Güven Endeksleri",
-        "category": "Endeksler",
-        "sidebarcategoryicon": "fas fa-chart-line",
-        "id": 13000
-    },
-    {
         "name": "Reel Kesim Güven Endeksi (TCMB)",
         "category": "Endeksler",
         "sidebarcategoryicon": "fas fa-chart-line",
         "id": 13001,
         "flourishid": 5520212
-    },
-    {
-        "name": "Tüketici Güven Endeksi (TÜİK)",
-        "category": "Endeksler",
-        "sidebarcategoryicon": "fas fa-chart-line",
-        "id": 13002
-    },
-    {
-        "name": "PMI (İSO Satın Alma Yöneticileri Endeksi)",
-        "category": "Endeksler",
-        "sidebarcategoryicon": "fas fa-chart-line",
-        "id": 13003
     }
 ]
