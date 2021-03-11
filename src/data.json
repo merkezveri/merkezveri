@@ -152,5 +152,33 @@
         "sidebarcategoryicon": "fas fa-globe-europe",
         "id": 14011,
         "flourishid": 5521895
+    },
+    {
+        "name": "Turizm Gelirleri",
+        "category": "Turizm",
+        "sidebarcategoryicon": "fas fa-snowboarding",
+        "id": 15000,
+        "flourishid": 5530250
+    },
+    {
+        "name": "Turizm Gelirleri (Yıllık)",
+        "category": "Turizm",
+        "sidebarcategoryicon": "fas fa-snowboarding",
+        "id": 15001,
+        "flourishid": 5531714
+    },
+    {
+        "name": "Çıkış Yapan Ziyaretçi Sayısı",
+        "category": "Turizm",
+        "sidebarcategoryicon": "fas fa-snowboarding",
+        "id": 15002,
+        "flourishid": 5531469
+    },
+    {
+        "name": "Turist Başına Ortalama Harcama",
+        "category": "Turizm",
+        "sidebarcategoryicon": "fas fa-snowboarding",
+        "id": 15003,
+        "flourishid": 5531765
     }
 ]
