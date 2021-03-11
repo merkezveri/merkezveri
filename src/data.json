@@ -1,7 +1,6 @@
 [
     {
         "name": "Gayri Safi Yurtiçi Hasıla (Çeyrek)",
-        "description": "Bir ülkenin sınırları içinde bir dönemde\r\nüretilen katma değerdir.",
         "category": "Üretim İstatistikleri",
         "sidebarcategoryicon": "fas fa-industry",
         "id": 10001,
@@ -9,7 +8,6 @@
     },
     {
         "name": "Gayri Safi Yurtiçi Hasıla (Yıllık)",
-        "description": "Bir ülkenin sınırları içinde bir dönemde\r\nüretilen katma değerdir.",
         "category": "Üretim İstatistikleri",
         "sidebarcategoryicon": "fas fa-industry",
         "id": 10002,
