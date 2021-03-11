@@ -124,5 +124,26 @@
         "sidebarcategoryicon": "fas fa-chart-line",
         "id": 13003,
         "flourishid": 5520567
+    },
+    {
+        "name": "İTHALAT",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "sidebarcategoryicon": "fas fa-globe-europe",
+        "id": 14005,
+        "flourishid": 5521873
+    },
+    {
+        "name": "Cari İşlemler Dengesi",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "sidebarcategoryicon": "fas fa-globe-europe",
+        "id": 14010,
+        "flourishid": 5529734
+    },
+    {
+        "name": "Dış Ticaret Dengesi",
+        "category": "Dış Ticaret Ve Ödemeler Dengesi",
+        "sidebarcategoryicon": "fas fa-globe-europe",
+        "id": 14011,
+        "flourishid": 5521895
     }
 ]
