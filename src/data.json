@@ -155,30 +155,51 @@
     },
     {
         "name": "Turizm Gelirleri",
-        "category": "Turizm",
+        "category": "Turizm İstatistikleri",
         "sidebarcategoryicon": "fas fa-snowboarding",
         "id": 15000,
         "flourishid": 5530250
     },
     {
         "name": "Turizm Gelirleri (Yıllık)",
-        "category": "Turizm",
+        "category": "Turizm İstatistikleri",
         "sidebarcategoryicon": "fas fa-snowboarding",
         "id": 15001,
         "flourishid": 5531714
     },
     {
         "name": "Çıkış Yapan Ziyaretçi Sayısı",
-        "category": "Turizm",
+        "category": "Turizm İstatistikleri",
         "sidebarcategoryicon": "fas fa-snowboarding",
         "id": 15002,
         "flourishid": 5531469
     },
     {
         "name": "Turist Başına Ortalama Harcama",
-        "category": "Turizm",
+        "category": "Turizm İstatistikleri",
         "sidebarcategoryicon": "fas fa-snowboarding",
         "id": 15003,
         "flourishid": 5531765
+    },
+    {
+        "name": "Tüketici Fiyat Endeksi",
+        "category": "Fiyatlar",
+        "sidebarcategoryicon": "fas fa-lira-sign",
+        "id": 16000,
+        "flourishid": 5536156
+    },
+    {
+        "name": "Yurt İçi Üretici Fiyat Endeksi",
+        "category": "Fiyatlar",
+        "sidebarcategoryicon": "fas fa-lira-sign",
+        "id": 16005,
+        "flourishid": 5536335
+    },
+    {
+        "name": "Döviz Kuru",
+        "category": "Fiyatlar",
+        "sidebarcategoryicon": "fas fa-lira-sign",
+        "id": 16007,
+        "flourishid": 5536481
     }
 ]
