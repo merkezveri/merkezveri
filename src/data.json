@@ -1,7 +1,7 @@
 [
     {
         "name": "Gayri Safi Yurtiçi Hasıla (Çeyrek)",
-        "description": "Bir ülkenin sınırları içinde bir dönemde\nüretilen katma değerdir.",
+        "description": "\"Bir ülkenin sınırları içinde bir dönemde\nüretilen katma değerdir.\"",
         "category": "Üretim İstatistikleri",
         "sidebarcategoryicon": "fas fa-industry",
         "id": 10001,
@@ -134,6 +134,13 @@
         "flourishid": 5529631
     },
     {
+        "name": "Uluslararası Rezervler",
+        "category": "Dış Ticaret ve Ödemeler Dengesi",
+        "sidebarcategoryicon": "fas fa-globe-europe",
+        "id": 14005,
+        "flourishid": 5567012
+    },
+    {
         "name": "İthalat",
         "category": "Dış Ticaret ve Ödemeler Dengesi",
         "sidebarcategoryicon": "fas fa-globe-europe",
@@ -202,5 +209,40 @@
         "sidebarcategoryicon": "fas fa-lira-sign",
         "id": 16007,
         "flourishid": 5536481
+    },
+    {
+        "name": "Kredi Gelişmeleri",
+        "category": "Mali Piyasalar",
+        "sidebarcategoryicon": "far fa-credit-card",
+        "id": 17002,
+        "flourishid": 5567254
+    },
+    {
+        "name": "Bankacılık Sektörü Takipteki Krediler",
+        "category": "Mali Piyasalar",
+        "sidebarcategoryicon": "far fa-credit-card",
+        "id": 17003,
+        "flourishid": 5567414
+    },
+    {
+        "name": "Bankacılık Sektörüne İlişkin Oranlar",
+        "category": "Mali Piyasalar",
+        "sidebarcategoryicon": "far fa-credit-card",
+        "id": 17004,
+        "flourishid": 5567487
+    },
+    {
+        "name": "Tüketici Kredileri",
+        "category": "Mali Piyasalar",
+        "sidebarcategoryicon": "far fa-credit-card",
+        "id": 17005,
+        "flourishid": 5567340
+    },
+    {
+        "name": "Bireysel Kredi Kartları",
+        "category": "Mali Piyasalar",
+        "sidebarcategoryicon": "far fa-credit-card",
+        "id": 17006,
+        "flourishid": 5567365
     }
 ]
