@@ -12,7 +12,7 @@ function SearchBar(props) {
         e.preventDefault()
         
         // input değişkenimizi hooks kullanarak arama çubuğuna yazılan değere eşitliyoruz.
-        setInput(e.target.value.toLowerCase())
+        setInput(e.target.value)
     }
 
     //Link'e tıklandığında listenin kapanması için boş kümeye eşitleyelim.
@@ -23,8 +23,10 @@ function SearchBar(props) {
     let SearchItemList = ""; //Arama Listesi
     // Arama eşleşirse döndür.
     if (input.length > 0 ){
+        
         SearchItemList = props.itemList.filter((i) => {
-            return i.name.toLowerCase().match(input);
+            // "İ" gibi harflerde büyük küçük yaparken sorun yaşamamak için lokalleştirme fonksiyonu kullandık. ".toLocaleLowerCase"
+            return i.name.toLocaleLowerCase('tr-TR').match(input.toLocaleLowerCase('tr-TR'));
         }); //filter close
     } //if close
 
