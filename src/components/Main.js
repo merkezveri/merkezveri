@@ -18,6 +18,9 @@ function Main(props) {
                     <div>
                         <h1 className="h2">{props.item.name}</h1>
                         <p className="fw-light fst-italic">- {props.item.category}</p>
+                        {
+                            props.item.description ? <p className="fst-italic">{props.item.description}</p> : ""
+                        }
                     </div>
                     
                     <div className="d-none d-lg-block">
