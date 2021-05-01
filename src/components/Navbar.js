@@ -13,7 +13,7 @@ function Navbar(props) {
                 <button className="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="w-100 d-none d-md-block">
+                <div className="w-100 d-none d-md-block search-bar-frame">
                     <SearchBar itemList={props.itemList}/>
                 </div>
                 

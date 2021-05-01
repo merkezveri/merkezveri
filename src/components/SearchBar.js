@@ -44,7 +44,7 @@ function SearchBar(props) {
             
             {
                 input.length > 0 ? (
-                <ul className="list-group livesearch">
+                <ul className="list-group search-bar-livesearch">
                     {
                         SearchItemList.map((item) => {
                             return (

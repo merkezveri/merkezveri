@@ -97,14 +97,16 @@ body {
   border-radius: 0;
 }
 
-.livesearch
+.search-bar-frame{
+  position: relative;
+}
+.search-bar-livesearch
 {
     position: absolute;
     background: white;
     max-height: 200px;
     overflow-y: auto;
     top: 49.5px;
-    left: 0;
     width: 100%;
 }
 
