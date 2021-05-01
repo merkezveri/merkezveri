@@ -44,7 +44,7 @@ function SearchBar(props) {
             
             {
                 input.length > 0 ? (
-                <ul className="list-group search-bar-livesearch">
+                <ul className="list-group search-bar-livesearch hide-native-scrollbar">
                     {
                         SearchItemList.map((item) => {
                             return (

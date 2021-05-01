@@ -98,17 +98,28 @@ body {
 }
 
 .search-bar-frame{
-  position: relative;
+  position: relative; /*Arama sonuçlarını arama kutusunun genişliğine eşitler.*/
 }
 .search-bar-livesearch
 {
     position: absolute;
     background: white;
-    max-height: 200px;
+    max-height: 250px;
     overflow-y: auto;
     top: 49.5px;
     width: 100%;
-}
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 6px rgb(32 33 36 / 28%);
+  }
+
+  /* Arama kutusunun scrollbar'ını gizler. */
+  .hide-native-scrollbar {
+    scrollbar-width: none; /* Firefox 64 */
+    -ms-overflow-style: none; /* Internet Explorer 11 */
+  }
+  .hide-native-scrollbar::-webkit-scrollbar { /** WebKit */
+    display: none;
+  }
 
 .form-control-dark {
   color: #fff;
