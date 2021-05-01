@@ -1,7 +1,6 @@
 [
     {
         "name": "Gayri Safi Yurtiçi Hasıla (Çeyrek)",
-        "description": "\"Bir ülkenin sınırları içinde bir dönemde\nüretilen katma değerdir.\"",
         "category": "Üretim İstatistikleri",
         "sidebarcategoryicon": "fas fa-industry",
         "id": 10001,
@@ -29,7 +28,7 @@
         "flourishid": 5395427
     },
     {
-        "name": "İmalat Sanayi Kapasite Kullanım Oranları",
+        "name": "İmalat Sanayi Kapasite Kullanım Oranı",
         "category": "Üretim İstatistikleri",
         "sidebarcategoryicon": "fas fa-industry",
         "id": 10008,
