@@ -1,8 +1,13 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
+import useArrowKeyNavigationHook from "react-arrow-key-navigation-hook";
+
+var uniqid = require('uniqid');
 
 function SearchBar(props) {
-    
+
+    const parentRef = useArrowKeyNavigationHook({ selectors: "a,button,input,ul,li" });
+
     // Arama içerisindeki saklayacağımız değişken ve onu tanımlayacağımız fonksiyon.
     const [input, setInput] = useState("");
 
@@ -44,14 +49,15 @@ function SearchBar(props) {
             
             {
                 input.length > 0 ? (
-                <ul className="list-group search-bar-livesearch hide-native-scrollbar">
+                <ul ref = {parentRef} className="list-group search-bar-livesearch hide-native-scrollbar">
                     {
                         SearchItemList.map((item) => {
                             return (
                                 <Link
                                 className="list-group-item list-group-item-action"
                                 to={`/data/${item.id}`}
-                                onClick={handleClickLink}>
+                                onClick={handleClickLink}
+                                key={uniqid()}                                >
                                     {item.name}
                                 </Link>
                             )
